@@ -1,0 +1,6 @@
+node_modules
+auth-*
+auth_info_baileys
+.qr-*.png
+*.session
+.env
