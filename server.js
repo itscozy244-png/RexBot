@@ -59,6 +59,5 @@ app.get('/', (req, res) => {
 })
 
 const FINAL_PORT = process.env.PORT || PORT
-app.listen(FINAL_PORT, '0.0.0.0', () => {
-    console.log(`Pair server running on ${FINAL_PORT}`)
-})
+app.listen(FINAL_PORT, '0.0.0.0', () => {const PORT = process.env.PORT || 10000;
+app.listen(PORT, () => console.log(`Running on ${PORT}`))
